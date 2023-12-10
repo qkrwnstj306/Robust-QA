@@ -238,6 +238,14 @@ print("End Logits:", end_logits)
     python custom_train_final.py --eval-every 5000 --run-name final3 --sub-file mtl_submission_val.csv  --eval-dir datasets/oodomain_val --train-datasets squad,nat_questions,newsqa,eda_squad,eda_nat_questions,eda_newsqa
     ```
 
+## Results
+
+![](./ppt-result/image.png)
+
+![](./ppt-result/image2.png)
+
+
+
 ## Additional tutorial
 1. ready_dataset.ipynb: 실제로 이 코드를 사용하지는 않았지만, dataset 구성이나 동작 방식을 살펴볼 수 있다.
     - News QA dataset 준비
