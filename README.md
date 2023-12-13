@@ -233,7 +233,7 @@ print("End Logits:", end_logits)
 - $Trial=30$
 - **Train dataset**: $473866$, In-domain dataset(SQuAD, NewsQA, Natural Questions)
 - **val score: $70.45$(F1), $53.08$(EM)**
-- **eval score: $50.12$(F1), $34.79$(EM)**
+- **eval score: $50.31$(F1), $35.12$(EM)**
     ```
     python custom_train_final.py --eval-every 5000 --run-name final3 --sub-file mtl_submission_val.csv  --eval-dir datasets/oodomain_val --train-datasets squad,nat_questions,newsqa,eda_squad,eda_nat_questions,eda_newsqa
     ```
@@ -242,7 +242,7 @@ print("End Logits:", end_logits)
 
 ![](./ppt-result/image.png)
 
-![](./ppt-result/image2.png)
+![](./ppt-result/image3.png)
 
 
 
